@@ -10,8 +10,8 @@ class App < Sinatra::Base
   end
   
   get '/say/:number/:phrase' do
-    250
-    200
+    
+    status 200
   end
   
   get '/say/:word1/:word2/:word3/:word4/:word5' do
