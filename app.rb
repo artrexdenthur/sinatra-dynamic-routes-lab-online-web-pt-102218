@@ -10,8 +10,9 @@ class App < Sinatra::Base
   end
   
   get '/say/:number/:phrase' do
-    200.times do
-      "hello world"
+    words = ["hello", "world"]
+    words.each do |w|
+      w
     end
     # params[:number].to_i.times do
     #   "#{params[:phrase]}"
